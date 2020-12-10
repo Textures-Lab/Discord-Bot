@@ -5,7 +5,7 @@ module.exports = {
 	description: 'Clear messages in a channel',
 	execute(message, args) {
 
-		if(message.member.roles.cache.find(r => r.name === "God") || message.member.roles.cache.find(r => r.name === "Moderator") || message.member.roles.cache.find(r => r.name === "Moderators") ||message.member.roles.cache.find(r => r.name === "Mods")) {
+		if(message.member.roles.cache.find(r => r.name === "God") || message.member.roles.cache.find(r => r.name === "Administrator") || message.member.roles.cache.find(r => r.name === "Administrators") ||message.member.roles.cache.find(r => r.name === "MAdmins")) {
 			if (args != '') {
 				if (isNaN(args)) return message.reply("The amount parameter isn't a number!");
 
