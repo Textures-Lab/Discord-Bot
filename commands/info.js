@@ -16,7 +16,6 @@ module.exports = {
 				.addFields(
 					{ name: '\u200B', value: '**Features:**'},
 					{ name: '🔍 Image resizing', value: 'With the `/magnify` command you can resize images by a certain factor! \nKeep in mind, this feature was made for textures, other images may look weird.'},
-          { name: '🎨 Texture viewer', value: 'Currently only working in the Dungeons discord; With `/texture *texture name*` you can quickly get send a texture and its information!'},
           { name: '❗ Modping', value: 'With the `/modping` command you can let me ping all mods online on one of our servers to get help.'},
           { name: '🗺️ soon™️: Translations', value: 'Soon you can translate any message when typing `/translate *to language* *your text*` or by reacting with a flag emoji to an existing message!'},
         )
