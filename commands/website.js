@@ -1,4 +1,4 @@
-const Discord  = require('discord.js');
+/*const Discord  = require('discord.js');
 const settings = require('../settings.js');
 
 module.exports = {
@@ -172,4 +172,4 @@ module.exports = {
 			//Other servers
 		} else return message.channel.send('Please specify a valid argument! \nYou can use: \n`32x`, `64x`, `addons`, `tweaks`, `dungeons` and `mods`');
 	}
-};
+};*/
