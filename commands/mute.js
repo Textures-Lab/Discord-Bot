@@ -5,7 +5,7 @@ module.exports = {
 	description: 'Mute someone for life',
 	execute(message, args) {
 
-		if(message.member.roles.cache.find(r => r.name === "God") || message.member.roles.cache.find(r => r.name === "Moderator") || message.member.roles.cache.find(r => r.name === "Moderators") ||message.member.roles.cache.find(r => r.name === "Mods")) {
+		if(message.member.roles.cache.find(r => r.name === "Administrator")) {
 			if (args != '') {
         var role = message.guild.roles.cache.find(r => r.name === 'Muted');
 				var member = message.mentions.members.first();
