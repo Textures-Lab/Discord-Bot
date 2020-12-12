@@ -33,7 +33,7 @@ server.listen(3000, () => console.log(`listening at http://localhost:${port}`));
 // Bot status:
 client.on('ready', async () => {
 	if (process.env.MAINTENANCE === 'true') client.user.setPresence({ activity: { name: 'maintenance' }, status: 'dnd' });
-	else client.user.setActivity('compliancepack.net', {type: 'PLAYING'});
+	else client.user.setActivity('with Textures.', {type: 'PLAYING'});
 	
 	console.log('Starting submission functions...');
 	scheduledFunctions.start();
